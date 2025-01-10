@@ -1,0 +1,22 @@
+<!-- 
+    Purpose: The following document provides examples of supported efficiency guide elements encoded into
+             XML format. Each element is provided as a working example and features all required 
+             sub-elements.
+-->
+
+<!--
+    All effiency guides should be wrapped in their entirety within the <Guide> element.
+    Required sub-elements:
+        * <title> - the title of the guide that has been encoded
+        * <description> - a short description of the guide's focus, purpose, and/or extent
+    Optional sub-elements (details for these will be listed above their appearance in the example):
+        * ...
+        * ...
+        * ...
+-->
+<Guide>
+    <title>Example Guide</title>
+    <description>This is an example guide that has been encoded into the expected XML format for the
+                 EffiencyBTW plugin.
+    </description>
+</Guide>
