@@ -19,4 +19,13 @@
     <description>This is an example guide that has been encoded into the expected XML format for the
                  EffiencyBTW plugin.
     </description>
+    <Step>
+        <completed>false</completed>
+        <description>This describes a generic step in the guide.</description>
+    </Step>
+    <ItemStep>
+        <completed>false</completed>
+        <description>This describes an item-related step.</description>
+        <item_name>Bronze axe</item_name>
+    </ItemStep>
 </Guide>
