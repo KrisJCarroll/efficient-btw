@@ -19,6 +19,17 @@
     <description>This is an example guide that has been encoded into the expected XML format for the
                  EffiencyBTW plugin.
     </description>
+
+    <!--
+        This is a generic Step element. It is the most basic type of Step and does not feature autocompletion
+        detection. This step should only be used if none of the later specific Steps address the actions
+        occurring in the guide. These steps will require the user to manually mark them as completed to progress
+        the guide to the next step.
+        Required sub-elements:
+            * <completed> - a flag to determine if a step has been completed or not, this should usually always be
+                            false when writing a guide
+            * <description> - a description of what should occur during this step in the guide
+    -->
     <Step>
         <completed>false</completed>
         <description>This describes a generic step in the guide.</description>
@@ -28,4 +39,10 @@
         <description>This describes an item-related step.</description>
         <item_name>Bronze axe</item_name>
     </ItemStep>
+    <GpStep>
+        <completed>false</completed>
+        <description>This describes a step that involves obtaining a certain amount of gp - notes on where 
+        to obtain the gp can be included here.</description>
+        <gp_amount>1000</gp_amount>
+    </GpStep>
 </Guide>
