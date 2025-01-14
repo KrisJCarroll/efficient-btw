@@ -34,15 +34,28 @@
         <completed>false</completed>
         <description>This describes a generic step in the guide.</description>
     </Step>
+
+
     <ItemStep>
         <completed>false</completed>
         <description>This describes an item-related step.</description>
         <item_name>Bronze axe</item_name>
+        <item_id>1234</item_id>
     </ItemStep>
+
+    
     <GpStep>
         <completed>false</completed>
         <description>This describes a step that involves obtaining a certain amount of gp - notes on where 
         to obtain the gp can be included here.</description>
         <gp_amount>1000</gp_amount>
     </GpStep>
+
+
+    <NpcStep>
+        <completed>false</completed>
+        <description></description>
+        <npc_name>Bob</npc_name>
+        <npc_location>Lumbridge</npc_location>
+    </NpcStep
 </Guide>
