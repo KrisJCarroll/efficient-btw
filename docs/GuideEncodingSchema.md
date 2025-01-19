@@ -24,6 +24,13 @@ This document is intended as a reference for the XML encoding schema for ironman
 **Child Elements:**
 - [Sections](#sections)
 
+**Fields:**
+| Field Name | Description | Required |
+|------------|-------------|-----------|
+| title | The title of the guide | Yes |
+| description | The description of the guide | Yes |
+---
+
 
 ## Sections
 **Description:** The sections within the guide.
@@ -32,6 +39,8 @@ This document is intended as a reference for the XML encoding schema for ironman
 
 **Child Elements:** 
 - [Section](#section)
+
+**Fields:** None
 
 
 ## Section
@@ -42,6 +51,8 @@ This document is intended as a reference for the XML encoding schema for ironman
 **Child Elements:**
 - [Subsections](#subsections)
 
+**Fields:** None
+
 
 ## Subsections
 **Descriptions:** The subsections within a section of the guide.
@@ -51,6 +62,8 @@ This document is intended as a reference for the XML encoding schema for ironman
 **Child Elements:**
 - [Subsection](#subsection)
 
+**Fields:** None
+
 
 ## Subsection
 **Descriptions:** An individual subsection within a section of the guide.
@@ -59,6 +72,8 @@ This document is intended as a reference for the XML encoding schema for ironman
 
 **Child Elements:**
 - [Steps](#steps)
+
+**Fields:** None
 
 
 ## Steps
@@ -71,6 +86,8 @@ This document is intended as a reference for the XML encoding schema for ironman
 - [ItemStep](#itemstep)
 - [GpStep](#gpstep)
 - [NpcStep](#npcstep)
+
+**Fields:** None
 
 
 ## Step
