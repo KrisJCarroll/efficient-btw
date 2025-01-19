@@ -35,7 +35,9 @@
         <description>This describes a generic step in the guide.</description>
     </Step>
 
+    <!--
 
+    -->
     <ItemStep>
         <completed>false</completed>
         <description>This describes an item-related step.</description>
